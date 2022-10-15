@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-/* Ex1 --> Escreva um programa em C++ que retorne o max(a,b,c): Retorna o maior dentre três números: */
+/* Ex1 --> Escreva um programa em C++ que retorna o maior dentre três números: */
 
 int max(int a, int b, int c)
 {
@@ -20,7 +20,7 @@ int max(int a, int b, int c)
   return false;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex2 --> Escreva um programa em C++ que retorne o min(a,b,c): Retorna o menor dentre três números: */
+/* Ex2 --> Escreva um programa em C++ que retorna o menor dentre três números: */
 int min(int a, int b, int c)
 {
   if (a < b && a < c)
@@ -38,7 +38,7 @@ int min(int a, int b, int c)
   return false;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex3 --> Escreva um programa em C++ que retorne par(x): testa se um número é par: */
+/* Ex3 --> Escreva um programa em C++ que testa se um número é par: */
 
 int par(int x)
 {
@@ -83,9 +83,7 @@ int foraDoIntervalo(int x, int y, int z)
   return x;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex6 --> Escreva um programa em C++ que defina o predicado bissexto(ano) que testa se um ano é bissexto. Considere que
-bissexto é aquele ano que é divisível por 400 ou é divisível por 4 e, nesse caso, não é
-divisível por 100*/
+/* Ex6 --> Escreva um programa em C++ que defina o predicado bissexto(ano) que testa se um ano é bissexto. Considere que bissexto é aquele ano que é divisível por 400 ou é divisível por 4 e, nesse caso, não é divisível por 100*/
 
 int bissexto(int w)
 {

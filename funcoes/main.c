@@ -2,7 +2,7 @@
 #include <math.h>
 #define PI 3.14
 
-/* Ex1 --> Escreva um programa em C++ que resolva a Média: calcula a média de a, b e c: */
+/* Ex1 --> Escreva um programa em C++ que calcula a média de a, b e c: */
 
 float media(float a, float b, float c) {
   int result;
@@ -10,7 +10,7 @@ float media(float a, float b, float c) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex2 --> Escreva um programa em C++ que resolva a Média ponderada: calcula a média ponderada de a, b e c onde a tem peso 3, b 4 e c 5: */
+/* Ex2 --> Escreva um programa em C++ que calcula a média ponderada de a, b e c onde a tem peso 3, b 4 e c 5: */
 
 float mediaPonderada(float a, float b, float c) {
   int result;
@@ -18,7 +18,7 @@ float mediaPonderada(float a, float b, float c) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex3 --> Escreva um programa em C++ que resolva o Perímetro: calcula o perímetro de um círculo de raio r.: */
+/* Ex3 --> Escreva um programa em C++ que calcula o perímetro de um círculo de raio r: */
 
 float perimetro(float r ) {
   int result;
@@ -26,7 +26,7 @@ float perimetro(float r ) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex4 --> Escreva um programa em C++ que resolva a Área do círculo: calcula a área de um círculo de raio r: */
+/* Ex4 --> Escreva um programa em C++ que calcula a área de um círculo de raio r: */
 
 float areaDoCirculo(float r) {
   int result;
@@ -34,7 +34,7 @@ float areaDoCirculo(float r) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex5 --> Escreva um programa em C++ que resolva a Área do triângulo: calcula a área de um triângulo de base b e altura c: */
+/* Ex5 --> Escreva um programa em C++ que calcula a área de um triângulo de base b e altura c: */
 
 float areaDoTriangulo(float b, float h) {
   int result;
@@ -42,7 +42,7 @@ float areaDoTriangulo(float b, float h) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex6 --> Escreva um programa em C++ que resolva a Área da caixa: calcula a área de uma caixa de dimensões a, b e c: */
+/* Ex6 --> Escreva um programa em C++ que calcula a área de uma caixa de dimensões a, b e c: */
 
 float areaDaCaixa(float b, float h, float c) {
   int result;
@@ -50,7 +50,7 @@ float areaDaCaixa(float b, float h, float c) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex7 --> Escreva um programa em C++ que resolva o Volume da caixa: calcula o volume de uma caixa de dimensões a, b e c: */
+/* Ex7 --> Escreva um programa em C++ que calcula o volume de uma caixa de dimensões a, b e c: */
 
 float volumeDaCaixa(float c, float b, float h) {
   int result;
@@ -58,7 +58,7 @@ float volumeDaCaixa(float c, float b, float h) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex8 --> Escreva um programa em C++ que resolva a Área do cilindro: calcula a área de um cilindro de raio r e altura h: */
+/* Ex8 --> Escreva um programa em C++ que calcula a área de um cilindro de raio r e altura h: */
 
 float areaDoCilindro(float r, float h) {
   int result;
@@ -66,7 +66,7 @@ float areaDoCilindro(float r, float h) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex9 --> Escreva um programa em C++ que resolva o Volume do cilindro: calcula o volume de um cilindro de raio r e altura h: */
+/* Ex9 --> Escreva um programa em C++ que calcula o volume de um cilindro de raio r e altura h: */
 
 float volumeDoCilindro(float r, float h) {
   int result;
@@ -74,7 +74,7 @@ float volumeDoCilindro(float r, float h) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex10 --> Escreva um programa em C++ que resolva a Hipotenusa: calcula a hipotenusa de um triângulo retângulo com lados b e c: */
+/* Ex10 --> Escreva um programa em C++ que calcula a hipotenusa de um triângulo retângulo com lados b e c: */
 
 float hipotenusa(float a, float b) {
   int result;
@@ -82,8 +82,7 @@ float hipotenusa(float a, float b) {
   return result;
 }
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex11 --> Escreva um programa em C++ que resolva a Raiz positiva: calcula a raiz positiva da equação do segundo grau definida por
-a.x2+b.x+c: */
+/* Ex11 --> Escreva um programa em C++ que calcula a raiz positiva da equação do segundo grau definida por a.x2+b.x+c: */
 
 float raizPositiva(float a, float b, float c) {
   // ax(2) + bx + c = 0

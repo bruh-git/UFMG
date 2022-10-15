@@ -22,7 +22,7 @@ int main() {
   printf("1-q)%f\n", log(7)+(log(7)*log(7)-cos(log(7))));
   printf("1-r)%f\n", (10.3 + 8.4)/50.3 - (10.3 + 8.4));
   printf("1-s)%f\n", (cos(0.8)+sin(0.8))*(cos(0.8)-sin(0.8)));
- /*----------------------------------------------------------------------------------------------------------*/ 
+/*----------------------------------------------------------------------------------------------------------*/ 
 	float a;
 	float b;
   float c;
@@ -35,8 +35,7 @@ int main() {
 	scanf("%f", &b);
   scanf("%f", &c);
   scanf("%f", &d);
-/* Ex2 --> Escreva um programa em C++ que lê quatro números reais do teclado (a, b, c e
-d) e exibe o resultado das seguintes expressões: */
+/* Ex2 --> Escreva um programa em C++ que lê quatro números reais do teclado (a, b, c e d) e exibe o resultado das seguintes expressões: */
 	printf("2-a)%f\n", a+b);
   printf("2-b)%f\n", a/c);
   printf("2-c)%f\n", pow(a,2));
@@ -57,8 +56,7 @@ d) e exibe o resultado das seguintes expressões: */
   printf("2-r)%f\n", (b + a)/c - (d + a));
   printf("2-s)%f\n", (cos(d)+sin(c))*(cos(b)-sin(a)));
 /*----------------------------------------------------------------------------------------------------------*/
-/* Ex3 --> Escreva um programa em C++ que lê três números reais do teclado (a, b e c) e
-exibe o resultado das seguintes expressões: */
+/* Ex3 --> Escreva um programa em C++ que lê três números reais do teclado (a, b e c) e exibe o resultado das seguintes expressões: */
 
   /* a) --> Média: média de a, b e c: */
   printf("3-a)%f\n", (a+b+c)/3);
@@ -91,3 +89,4 @@ exibe o resultado das seguintes expressões: */
   else {
     printf("coeficiente 'a' é inválido, só é válida se 'a' for diferente de 0.Não é uma equação de 2° grau");
   }
+}
